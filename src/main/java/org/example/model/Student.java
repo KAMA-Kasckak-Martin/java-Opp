@@ -43,6 +43,12 @@ public class Student {
         return toString();
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "laune='" + laune + '\'' +
+                ", name='" + name + '\'' +
+                ", class size=" + size +
+                '}';
+    }
 }

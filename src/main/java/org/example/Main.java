@@ -34,7 +34,7 @@ public class Main {
         System.out.println(martin.setSize(19));
 
         System.out.println("Name:"+ martin.name+" "+"die laune ist:"+ martin.laune+" " +"Die anzahl an szudenten in der klase ist:"+ martin.size);
-
+        System.out.println(martin.toString());
     }
 
 
