@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.Student;
+
 public class Main {
     public static void main(String[] args) {
        /* System.out.println("Hello world!");
@@ -13,7 +15,7 @@ public class Main {
         System.out.println(sams.getColor());
 
         */
-        Student martin= new Student(25,"ferko");
+        Student martin= new Student("MArtin", 25, "gut");
         System.out.println(martin.size);
         System.out.println(martin.name);
 
@@ -31,7 +33,7 @@ public class Main {
         System.out.println(martin.setLaune("blee"));
         System.out.println(martin.setSize(19));
 
-
+        System.out.println("Name:"+ martin.name+" "+"die laune ist:"+ martin.laune+" " +"Die anzahl an szudenten in der klase ist:"+ martin.size);
 
     }
 

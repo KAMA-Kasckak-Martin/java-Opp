@@ -1,9 +1,9 @@
-package org.example;
+package org.example.model;
 
 public class Student {
-    String laune;
-    String name;
-    int size;
+    public String laune;
+    public String name;
+    public int size;
 
     public String getLaune(){
         return laune;
@@ -33,9 +33,14 @@ public class Student {
     }
 
 
-    public Student(int size, String name){     //Konstruktor
+    public Student( String name,int size,String laune){     //Konstruktor
         this.size= size;
         this.name= name;
+    }
+
+    public String toString(String name, int size, String laune) {
+        System.out.println();
+        return toString();
     }
 
 
