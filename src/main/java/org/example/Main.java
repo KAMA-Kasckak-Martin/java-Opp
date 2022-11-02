@@ -13,7 +13,9 @@ public class Main {
         System.out.println(sams.getColor());
 
         */
-        Student martin= new Student();
+        Student martin= new Student(25,"ferko");
+        System.out.println(martin.size);
+        System.out.println(martin.name);
 
 
         martin.laune="gut";

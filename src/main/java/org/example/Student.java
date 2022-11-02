@@ -33,5 +33,11 @@ public class Student {
     }
 
 
+    public Student(int size, String name){     //Konstruktor
+        this.size= size;
+        this.name= name;
+    }
+
+
 
 }
