@@ -21,7 +21,7 @@ class StudentDBTest {
         studentsDb.addStudent(julia);
         studentsDb.addStudent(sergej);
 
-
+        //todo vergleiche ob die liste julia und sergej enhelt hat
         //then
         assertEquals(studentsDb.studentList.size(),2);
 
