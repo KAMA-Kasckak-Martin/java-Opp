@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.model.ComputerScienceStudent;
 import org.example.model.Student;
 
 import java.util.ArrayList;
@@ -51,6 +52,11 @@ public class Main {
         studentsDb.addStudent(marcus);
         System.out.println(studentsDb);
         System.out.println(studentsDb.randomStudent());
+
+        ComputerScienceStudent licet = new ComputerScienceStudent("OOP");
+        System.out.println(licet);
+        ComputerScienceStudent lechor = new ComputerScienceStudent("bananen jäger");
+        System.out.println(lechor);
 
 
 
