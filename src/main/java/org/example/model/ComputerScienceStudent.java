@@ -18,6 +18,11 @@ public class ComputerScienceStudent extends Student {
     }
 
     @Override
+    public int getScore() {
+        return 100;
+    }
+
+    @Override
     public String toString() {
         return "ComputerScienceStudent{" +
                 " course=' " + course + '\'' +

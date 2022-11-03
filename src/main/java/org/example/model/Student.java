@@ -2,7 +2,7 @@ package org.example.model;
 
 import java.util.Objects;
 
-public class Student {
+public abstract class Student {
     private String laune;
     private String name;
     private int id;
@@ -10,6 +10,8 @@ public class Student {
     public Student() {
 
     }
+
+    public abstract int getScore();
 
     public String getLaune(){
         return laune;

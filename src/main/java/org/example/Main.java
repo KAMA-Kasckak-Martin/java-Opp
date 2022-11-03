@@ -19,10 +19,10 @@ public class Main {
         System.out.println(sams.getColor());
 
         */
-        Student martin= new Student();
+        Student martin= new ComputerScienceStudent("Zigen gemelkt");
         //System.out.println(martin.size);
         //System.out.println(martin.name);
-        Student marcus = new Student();
+        Student marcus = new ComputerScienceStudent("Fahrschule");
 
         //martin.laune="gut";
 
@@ -54,9 +54,9 @@ public class Main {
         System.out.println(studentsDb.randomStudent());
 
         ComputerScienceStudent licet = new ComputerScienceStudent("OOP");
-        System.out.println(licet);
+        System.out.println(licet.getScore());
         ComputerScienceStudent lechor = new ComputerScienceStudent("bananen jäger");
-        System.out.println(lechor);
+        System.out.println(lechor.getScore());
 
 
 
