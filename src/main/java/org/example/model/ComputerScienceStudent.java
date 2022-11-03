@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class ComputerScienceStudent extends Student {
+public class ComputerScienceStudent extends Student implements Citizen  {
 
     private String course;
 
@@ -30,5 +30,15 @@ public class ComputerScienceStudent extends Student {
                 ", name=' " + getName() + '\'' +
                 ", class size= " + getId()+
                 '}';
+    }
+
+    @Override
+    public String getAdress() {
+        return "Mustertrasse1";
+    }
+
+    @Override
+    public int getIdentitycardNumber() {
+        return 56;
     }
 }
